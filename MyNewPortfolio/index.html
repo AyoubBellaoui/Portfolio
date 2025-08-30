@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Ayoub Portfolio</title>
+    <link rel="stylesheet" href="static/style.css">
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- AOS.js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="#main" class="logo">Ayoub</a>
+
+                <!-- Burger icon on the right -->
+                <div class="burger" onclick="toggleMenu()">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+                <!-- Links + Download CV -->
+                <div class="navbar-links">
+                    <div class="nav-center">
+                        <a href="#main">HOME</a>
+                        <a href="#about">ABOUT ME</a>
+                        <a href="#skills">SKILLS</a>
+                        <a href="#projects">PROJECTS</a>
+                        <a href="#contact">CONTACT ME</a>
+                    </div>
+                    <a href="./docs/Ayoub bellaoui.pdf" target="_blank" class="nav-btn">
+                        <i class="fas fa-download"></i> DOWNLOAD CV
+                    </a>
+                </div> 
+                
+            </div>
+        </nav>-
+    </header>
+
+
+    <section class="main-section" id="main">
+        <div class="intro-section">
+            <p class="intro-text">Ayoub Bellaoui Portfolio <br> <span class="small-text-intro">Web & WordPress Developer | Building Web Solutions</span></p>
+        </div>
+    </section>
+
+<section class="aboutme-section" id="about">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">About Me</h2>
+
+        <div class="about-wrapper">
+        <!-- Profile Image -->
+        <div class="about-image" data-aos="zoom-in">
+            <img src="./media/1742619740008.jpg" alt="Ayoub Bellaoui">
+        </div>
+
+        <!-- Text Content -->
+        <div class="about-text" data-aos="fade-left">
+            <h3>Hello, I'm <span>Ayoub Bellaoui</span></h3>
+            <p class="about-intro">
+            A passionate <strong>Web & WordPress Developer</strong> who enjoys transforming ideas into
+            <span>modern, elegant, and responsive websites and web solutions</span>. I love blending creativity with logic to
+            craft digital experiences that truly stand out.
+            </p>
+
+            <p class="about-details">
+            With good knowlegde in <strong>HTML, CSS, JavaScript, Nodejs ,PHP, SQl ,WordPress</strong>, and hands-on experience
+            in <strong>Node.js & MySQL</strong>, I specialize in <em>back-end development</em> butI also work on client side
+            . My goal is always to deliver fast, secure, and visually stunning
+            websites that offer smooth user experiences.
+            </p>
+
+            <!-- Quick Highlights -->
+            <ul class="about-highlights">
+            <li><i class="fas fa-check-circle"></i> Full Web Applications</li>
+            <li><i class="fas fa-check-circle"></i> Landing Pages</li>
+            <li><i class="fas fa-check-circle"></i> Responsive Web Design</li>
+            <li><i class="fas fa-check-circle"></i> WordPress Customization</li>
+            <li><i class="fas fa-check-circle"></i> SEO & Performance Optimization</li>
+            </ul>
+
+            <!-- Call to Action -->
+            <a href="#projects" class="about-btn">
+            <i class="fas fa-briefcase"></i> View My Work
+            </a>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="skills-section" id="skills">
+    <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Skills</h2>
+            <div class="skills-grid">
+            <!-- HTML -->
+            <div class="skill-card" data-aos="fade-up">
+                <i class="fab fa-html5 skill-icon" style="color:#e34c26;"></i>
+                <span>HTML5</span>
+            </div>
+            <!-- CSS -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fab fa-css3-alt skill-icon" style="color:#264de4;"></i>
+                <span>CSS3</span>
+            </div>
+            <!-- JavaScript -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fab fa-js skill-icon" style="color:#f0db4f;"></i>
+                <span>JavaScript</span>
+            </div>
+            <!-- C -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="800">
+                <div class="skill-icon" style="font-size:36px; color:#A8B9CC; font-weight: bolder;">C</div>
+                <span>C</span>
+            </div>
+            <!-- WordPress -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="300">
+                <i class="fab fa-wordpress skill-icon" style="color:#21759b;"></i>
+                <span>WordPress</span>
+            </div>
+            <!-- PHP -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="400">
+                <i class="fab fa-php skill-icon" style="color:#777bb4;"></i>
+                <span>PHP</span>
+            </div>
+            <!-- Node.js -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="500">
+                <i class="fab fa-node-js skill-icon" style="color:#68a063;"></i>
+                <span>Node.js</span>
+            </div>
+            <!-- MySQL -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="600">
+                <i class="fas fa-database skill-icon" style="color:#00618a;"></i>
+                <span>MySQL</span>
+            </div>
+            <!-- Git -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="700">
+                <i class="fab fa-git-alt skill-icon" style="color:#f1502f;"></i>
+                <span>Git</span>
+            </div>
+            <!-- GitHub -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="900">
+                <i class="fab fa-github skill-icon" style="color:#ffffff;"></i>
+                <span>GitHub</span>
+            </div>
+            <!-- Bootstrap -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="1000">
+                <i class="fab fa-bootstrap skill-icon" style="color:#7952b3;"></i>
+                <span>Bootstrap</span>
+            </div>
+            <!-- Bulma -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="1100">
+                <div class="skill-icon" style="background-color:#00d1b2; color:#fff; width: 45px;">B</div>
+                <span>Bulma</span>
+            </div>
+            <!-- jQuery -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="1400"> 
+                <div class="skill-icon" style="background-color:#0769ad; color:white; font-weight:bold; width: 57px;">jQ</div>
+                <span>jQuery</span>
+            </div>
+            <!-- UML -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="1500">
+                <div class="skill-icon" style="background-color:#4a4a4a; color:#ffffff; font-size:14px; font-weight:bolder; width: 55px; height: 20px;">UML</div>
+                <span>UML</span>
+            </div>
+            <!-- Windows -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="1200">
+                <i class="fab fa-windows skill-icon" style="color:#00a4ef;"></i>
+                <span>Windows</span>
+            </div>
+            <!-- Linux -->
+            <div class="skill-card" data-aos="fade-up" data-aos-delay="1300">
+                <i class="fab fa-linux skill-icon" style="color:#f5f5f5;"></i>
+                <span>Linux</span>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="projects-section" id="projects">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Projects</h2>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card" data-aos="fade-up">
+                <img src="./media/project1.png" alt="E-commerce Website">
+                <div class="project-info">
+                    <h3>E-commerce landing page</h3>
+                    <p>A modern online shop with product page, shopping cart, and responsive design.</p>
+                    <div class="project-links">
+                        <a href="https://ziyachic-shop.netlify.app/" target="_blank" class="project-btn demo-btn">
+                            <i class="fas fa-globe"></i> Demo
+                        </a>
+                        <a href="https://github.com/AyoubBellaoui/Ziyachic" target="_blank" class="project-btn code-btn">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                <img src="./media/project2.png" alt="WordPress Blog">
+                <div class="project-info">
+                    <h3>E-commerce landing page</h3>
+                    <p>A modern online shop with product page, shopping cart, and responsive design.</p>
+                    <div class="project-links">
+                        <a href="https://ysk-shop1.netlify.app/" target="_blank" class="project-btn demo-btn">
+                            <i class="fas fa-globe"></i> Demo
+                        </a>
+                        <a href="https://github.com/AyoubBellaoui/YSK-Shop.git" target="_blank" class="project-btn code-btn">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                <img src="./media/contratmanager.jpg" alt="Task Manager App">
+                <div class="project-info">
+                    <h3>Contract manager app</h3>
+                    <p>A contract manager web application using PHP8 and MySQL</p>
+                    <div class="project-links">
+                        <a href="https://github.com/AyoubBellaoui/Contact-Form.git" target="_blank" class="project-btn code-btn">
+                            <i class="fas fa-code"></i> Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-------------------------------------------------------- Contact me ------------------------------------------------------->
+<section class="contact-section" id="contact">
+    <div class="container">
+        <h2 class="section-title" data-aos="fade-up">Contact Me</h2>
+
+        <div class="contact-cards">
+            <!-- Hire Me Card -->
+            <a href="https://www.linkedin.com/in/ayoub-bellaoui-8a1522175" target="_blank" class="contact-card" data-aos="fade-up" data-aos-delay="100">
+                <i class="fab fa-linkedin"></i>
+                <h3>Hire Me</h3>
+                <p>Let's connect on LinkedIn</p>
+            </a>
+
+            <!-- Email Me Card -->
+            <a href="mailto:ayoubbellaoui@yahoo.com" class="contact-card" data-aos="fade-up" data-aos-delay="200">
+                <i class="fas fa-envelope"></i>
+                <h3>Email Me</h3>
+                <p>Send me a direct email</p>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!---------------------------------------------------------- footer ---------------------------------------------------->
+<footer class="footer">   
+    <div class="container footer-content"> 
+
+    <!-- Brand / Name -->
+    <div class="footer-brand"> 
+        <h2>Ayoub Bellaoui</h2> 
+        <p>Web Developer | WordPress Developer | Creator</p> 
+    </div>
+
+    <!-- Social Links --> 
+    <div class="footer-socials"> 
+        <a href="https://github.com/AyoubBellaoui" target="_blank"><i class="fab fa-github"></i></a> 
+        <a href="https://www.linkedin.com/in/ayoub-bellaoui-8a1522175" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://twitter.com" target="_blank" class="social-x">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 1200 1227" fill="currentColor">
+            <path d="M714.163 519.284L1160.89 0H1055.1L668.293 450.887L364.32 0H0L468.109 681.821L0 1226.37H105.786L515.177 747.682L835.68 1226.37H1200L714.137 519.284H714.163ZM567.896 687.197L520.844 619.704L144.791 79.694H313.985L615.779 511.47L662.831 578.963L1055.17 1150.31H886.001L567.896 687.197Z"/>
+            </svg>
+        </a>
+    </div> 
+
+    <!-- Copyright -->  
+    <div class="footer-bottom">  
+        <p>&copy; 2025 Ayoub Bellaoui. All Rights Reserved.</p>  
+    </div>
+
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="static/main.js" defer></script>
+    <!-- بعد كل محتوى الصفحة وقبل إغلاق </body> -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,  // مدة الأنيميشن
+            once: true       // تظهر الأنيميشن مرة واحدة فقط أثناء التمرير
+        });
+    </script>
+</body>
+</html>
