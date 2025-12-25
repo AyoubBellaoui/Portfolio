@@ -754,3 +754,7 @@ html, body {
     color: #888;
     margin-top: 10px;
 }
+
+body {
+    background-color: #0d0d0d; /* Match your footer background */
+}
